@@ -229,6 +229,7 @@ p {
 .track-grid,
 .review-grid,
 .date-grid,
+.sponsor-grid,
 .faq-list {
   display: grid;
   gap: 0.9rem;
@@ -237,6 +238,40 @@ p {
 .track-grid,
 .review-grid {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.sponsor-grid {
+  margin-top: 0.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.sponsor-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) - 3px);
+  background: linear-gradient(180deg, rgba(19, 31, 51, 0.72), rgba(13, 23, 39, 0.87));
+  padding: 0.95rem 1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+}
+
+.sponsor-card:hover {
+  border-color: rgba(91, 195, 255, 0.52);
+  box-shadow: 0 0 24px rgba(91, 195, 255, 0.13);
+  transform: translateY(-1px);
+}
+
+.sponsor-card img {
+  width: 84px;
+  height: auto;
+  flex: 0 0 auto;
+}
+
+.sponsor-card span {
+  font-weight: 600;
 }
 
 .track-card,
@@ -423,6 +458,7 @@ li {
   .track-grid,
   .review-grid,
   .date-grid,
+  .sponsor-grid,
   .faq-list {
     grid-template-columns: 1fr;
   }
