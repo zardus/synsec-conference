@@ -2,8 +2,8 @@
   "name": "SynSec 2026",
   "short_name": "SynSec",
   "website": "https://synsec.org/",
-  "version": "2026-03-05.v1",
-  "last_updated": "2026-03-05T00:00:00Z",
+  "version": "2026-03-05.v2",
+  "last_updated": "2026-03-05T18:00:00Z",
   "timezone": "UTC-12",
   "timezone_note": "Deadlines are Anywhere on Earth (AoE, UTC-12) unless otherwise stated.",
   "event": {
@@ -14,11 +14,13 @@
       "country": "USA",
       "mode": "in-person"
     },
-    "date_text": "October 22–23, 2026",
+    "date_text": "October 22\u201323, 2026",
     "proceedings": {
       "official": false,
       "note": "Presentation-focused program; papers and artifacts published at synsec.org"
-    }
+    },
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-23"
   },
   "submission": {
     "portal_open_date": "2026-03-01",
@@ -110,6 +112,7 @@
     "llms": "https://synsec.org/llms.txt",
     "llms_full": "https://synsec.org/llms-full.txt",
     "agent_task": "https://synsec.org/agent-task",
-    "change_feed": "https://synsec.org/feed.xml"
+    "change_feed": "https://synsec.org/feed.xml",
+    "schema": "https://synsec.org/ai-cfp.schema.json"
   }
 }

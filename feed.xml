@@ -5,7 +5,15 @@
     <link>https://synsec.org/</link>
     <description>Machine-readable updates for SynSec CFP resources.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2026 05:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 18:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Schema v1 published for AI CFP JSON</title>
+      <link>https://synsec.org/ai-cfp.schema.json</link>
+      <guid>synsec-agent-feed-2026-03-05-schema-v1</guid>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 GMT</pubDate>
+      <description>Published ai-cfp.schema.json and updated ai-cfp.json to include start/end dates and schema reference.</description>
+    </item>
 
     <item>
       <title>Initial AI-ingestible CFP resources published</title>
