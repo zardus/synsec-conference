@@ -5,7 +5,17 @@
     <link>https://synsec.org/</link>
     <description>Machine-readable updates for SynSec CFP resources.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2026 18:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 21:20:00 GMT</lastBuildDate>
+
+
+
+    <item>
+      <title>Added top-tier novelty benchmark guidance</title>
+      <link>https://synsec.org/llms-full.txt</link>
+      <guid>synsec-agent-feed-2026-03-05-quality-v1</guid>
+      <pubDate>Thu, 05 Mar 2026 21:20:00 GMT</pubDate>
+      <description>Added quality benchmark language and reference links for IEEE S&amp;P, USENIX Security, CCS, and NDSS across human and machine-facing CFP resources.</description>
+    </item>
 
     <item>
       <title>Schema v1 published for AI CFP JSON</title>
