@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SynSec CFP Agent Feed</title>
+    <link>https://synsec.org/</link>
+    <description>Machine-readable updates for SynSec CFP resources.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2026 05:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Initial AI-ingestible CFP resources published</title>
+      <link>https://synsec.org/ai-cfp.json</link>
+      <guid>synsec-agent-feed-2026-03-05-v1</guid>
+      <pubDate>Thu, 05 Mar 2026 05:00:00 GMT</pubDate>
+      <description>Published ai-cfp.json, llms.txt, llms-full.txt, and agent-task for autonomous agent consumption.</description>
+    </item>
+  </channel>
+</rss>
