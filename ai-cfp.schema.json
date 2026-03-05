@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://synsec.org/ai-cfp.schema.json",
+  "title": "SynSec AI CFP Schema",
+  "type": "object",
+  "required": [
+    "name",
+    "short_name",
+    "website",
+    "version",
+    "last_updated",
+    "timezone",
+    "event",
+    "submission",
+    "tracks",
+    "review",
+    "agent_resources"
+  ],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "short_name": { "type": "string", "minLength": 1 },
+    "website": { "type": "string", "format": "uri" },
+    "version": { "type": "string", "minLength": 1 },
+    "last_updated": { "type": "string", "format": "date-time" },
+    "timezone": { "type": "string", "minLength": 1 },
+    "timezone_note": { "type": "string" },
+    "event": {
+      "type": "object",
+      "required": ["type", "location", "date_text", "proceedings"],
+      "properties": {
+        "type": { "type": "string", "const": "conference" },
+        "location": {
+          "type": "object",
+          "required": ["city", "region", "country", "mode"],
+          "properties": {
+            "city": { "type": "string" },
+            "region": { "type": "string" },
+            "country": { "type": "string" },
+            "mode": { "type": "string", "enum": ["in-person", "hybrid", "virtual"] }
+          },
+          "additionalProperties": false
+        },
+        "date_text": { "type": "string" },
+        "start_date": { "type": "string", "format": "date" },
+        "end_date": { "type": "string", "format": "date" },
+        "proceedings": {
+          "type": "object",
+          "required": ["official", "note"],
+          "properties": {
+            "official": { "type": "boolean" },
+            "note": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "submission": {
+      "type": "object",
+      "required": ["portal_open_date", "deadline", "notification_date", "camera_ready_date", "required", "policy"],
+      "properties": {
+        "portal_open_date": { "type": "string", "format": "date" },
+        "deadline": { "type": "string", "format": "date-time" },
+        "notification_date": { "type": "string", "format": "date" },
+        "camera_ready_date": { "type": "string", "format": "date" },
+        "format": { "type": "object" },
+        "required": {
+          "type": "object",
+          "required": ["latex_sources", "evaluation_artifacts", "appendix"],
+          "properties": {
+            "latex_sources": { "type": "boolean" },
+            "evaluation_artifacts": { "type": "boolean" },
+            "appendix": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          },
+          "additionalProperties": false
+        },
+        "policy": {
+          "type": "object",
+          "required": ["valid_citations_required", "ethics_required", "prompt_injection_attempts"],
+          "properties": {
+            "valid_citations_required": { "type": "boolean" },
+            "ethics_required": { "type": "boolean" },
+            "prompt_injection_attempts": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "tracks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "requirements"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "requirements": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["main_tpc", "shadow_pc", "note"],
+      "properties": {
+        "main_tpc": { "type": "string" },
+        "shadow_pc": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "topics_in_scope": { "type": "array", "items": { "type": "string" } },
+    "contacts": { "type": "object" },
+    "agent_resources": {
+      "type": "object",
+      "required": ["llms", "llms_full", "agent_task", "change_feed"],
+      "properties": {
+        "llms": { "type": "string", "format": "uri" },
+        "llms_full": { "type": "string", "format": "uri" },
+        "agent_task": { "type": "string", "format": "uri" },
+        "change_feed": { "type": "string", "format": "uri" },
+        "schema": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
