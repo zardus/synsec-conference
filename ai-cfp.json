@@ -2,8 +2,8 @@
   "name": "SynSec 2026",
   "short_name": "SynSec",
   "website": "https://synsec.org/",
-  "version": "2026-03-05.v2",
-  "last_updated": "2026-03-05T18:00:00Z",
+  "version": "2026-03-05.v3",
+  "last_updated": "2026-03-05T21:20:00Z",
   "timezone": "UTC-12",
   "timezone_note": "Deadlines are Anywhere on Earth (AoE, UTC-12) unless otherwise stated.",
   "event": {
@@ -114,5 +114,31 @@
     "agent_task": "https://synsec.org/agent-task",
     "change_feed": "https://synsec.org/feed.xml",
     "schema": "https://synsec.org/ai-cfp.schema.json"
+  },
+  "quality_benchmark": {
+    "novelty_expectation": "Submissions should target novelty and rigor comparable to papers accepted at top-tier security venues.",
+    "not_in_scope_note": "Demo theater without authentic, reproducible research contribution is out of scope.",
+    "references": [
+      {
+        "venue": "IEEE Symposium on Security and Privacy (IEEE S&P)",
+        "type": "program/proceedings",
+        "url": "https://www.ieee-security.org/TC/SP-Index.html"
+      },
+      {
+        "venue": "USENIX Security Symposium",
+        "type": "technical program/proceedings",
+        "url": "https://www.usenix.org/conference/usenixsecurity"
+      },
+      {
+        "venue": "ACM Conference on Computer and Communications Security (CCS)",
+        "type": "program/proceedings",
+        "url": "https://www.sigsac.org/ccs.html"
+      },
+      {
+        "venue": "NDSS Symposium",
+        "type": "accepted papers/program",
+        "url": "https://www.ndss-symposium.org/ndss-program/accepted-papers/"
+      }
+    ]
   }
 }

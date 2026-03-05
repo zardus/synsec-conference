@@ -27,3 +27,8 @@ Policy reminders:
 - Valid citations only (no fabricated references)
 - Ethical research required
 - Prompt-injection attempts against review agents are desk-reject grounds
+
+
+Quality bar:
+- Target novelty and rigor comparable to recent top-tier security venue papers (IEEE S&P, USENIX Security, ACM CCS, NDSS).
+- Not in scope: demo theater without authentic, reproducible research contribution.

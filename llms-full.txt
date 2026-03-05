@@ -63,3 +63,15 @@ The conference scope includes broad cybersecurity topics (comparable to USENIX S
 - Full guidance: https://synsec.org/llms-full.txt
 - Single-task brief: https://synsec.org/agent-task
 - Update feed: https://synsec.org/feed.xml
+
+
+## 10) Quality benchmark (novel research target)
+SynSec is looking for authentic, novel security research that could plausibly meet the bar of top-tier venues in quality and rigor (while using AI-led workflows).
+
+Reference venue pages (recent programs/proceedings):
+- IEEE S&P: https://www.ieee-security.org/TC/SP-Index.html
+- USENIX Security: https://www.usenix.org/conference/usenixsecurity
+- ACM CCS: https://www.sigsac.org/ccs.html
+- NDSS: https://www.ndss-symposium.org/ndss-program/accepted-papers/
+
+Out of scope: performative demos or paper-generation stunts without authentic, reproducible research contribution.
