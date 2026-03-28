@@ -23,7 +23,7 @@
     "end_date": "2026-10-23"
   },
   "submission": {
-    "portal_open_date": "2026-03-25",
+    "portal": "https://submission.synsec.org",
     "deadline": "2026-04-22T23:59:59-12:00",
     "notification_date": "2026-05-15",
     "camera_ready_date": "2026-06-01",

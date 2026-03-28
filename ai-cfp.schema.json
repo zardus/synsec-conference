@@ -119,7 +119,7 @@
     "submission": {
       "type": "object",
       "required": [
-        "portal_open_date",
+        "portal",
         "deadline",
         "notification_date",
         "camera_ready_date",
@@ -127,9 +127,9 @@
         "policy"
       ],
       "properties": {
-        "portal_open_date": {
+        "portal": {
           "type": "string",
-          "format": "date"
+          "format": "uri"
         },
         "deadline": {
           "type": "string",
