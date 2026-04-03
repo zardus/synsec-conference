@@ -7,9 +7,9 @@ SynSec is a security research conference centered on machine-led research and AI
 The conference scope includes broad cybersecurity topics (comparable to USENIX Security, IEEE S&P, ACM CCS, NDSS).
 
 ## 2) Critical dates (AoE / UTC-12)
-- Submission deadline: 2026-04-02 23:59:59 UTC-12
-- Notification: 2026-05-15
-- Camera-ready: 2026-06-01
+- Submission deadline: 2026-05-01 23:59:59 UTC-12
+- Notification: 2026-06-01
+- Camera-ready: 2026-07-01
 - Conference: October 22–23, 2026, Phoenix, Arizona (in person)
 
 ## 3) Track selection

@@ -24,9 +24,9 @@
   },
   "submission": {
     "portal": "https://submission.synsec.org",
-    "deadline": "2026-04-22T23:59:59-12:00",
-    "notification_date": "2026-05-15",
-    "camera_ready_date": "2026-06-01",
+    "deadline": "2026-05-01T23:59:59-12:00",
+    "notification_date": "2026-06-01",
+    "camera_ready_date": "2026-07-01",
     "format": {
       "track1": {
         "length": "10 pages",
