@@ -5,9 +5,17 @@
     <link>https://synsec.org/</link>
     <description>Machine-readable updates for SynSec CFP resources.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2026 21:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 GMT</lastBuildDate>
 
 
+
+    <item>
+      <title>Venue confirmed: Skysong Innovations, Scottsdale, AZ</title>
+      <link>https://synsec.org/#venue</link>
+      <guid>synsec-agent-feed-2026-05-05-venue-v1</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description>Conference location updated from Phoenix to Scottsdale, Arizona; venue is Skysong Innovations. ai-cfp.json updated accordingly.</description>
+    </item>
 
     <item>
       <title>Added top-tier novelty benchmark guidance</title>

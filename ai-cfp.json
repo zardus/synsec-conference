@@ -2,16 +2,17 @@
   "name": "SynSec 2026",
   "short_name": "SynSec",
   "website": "https://synsec.org/",
-  "version": "2026-03-05.v3",
-  "last_updated": "2026-03-05T21:20:00Z",
+  "version": "2026-05-05.v4",
+  "last_updated": "2026-05-05T00:00:00Z",
   "timezone": "UTC-12",
   "timezone_note": "Deadlines are Anywhere on Earth (AoE, UTC-12) unless otherwise stated.",
   "event": {
     "type": "conference",
     "location": {
-      "city": "Phoenix",
+      "city": "Scottsdale",
       "region": "Arizona",
       "country": "USA",
+      "venue": "Skysong Innovations",
       "mode": "hybrid"
     },
     "date_text": "October 22\u201323, 2026",
