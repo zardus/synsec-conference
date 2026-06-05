@@ -40,6 +40,19 @@ body {
     linear-gradient(165deg, var(--bg-0), var(--bg-1) 52%, #090f1a);
 }
 
+/* Links: readable on the dark background; visited links use the same
+   color as unvisited (no separate :visited rule, so the default purple
+   never applies). The bare `a` selector keeps .muted links and
+   color: inherit links (sponsor-card, eyebrow-link) intact. */
+a {
+  color: var(--accent-2);
+}
+
+a:hover,
+a:focus {
+  color: var(--accent);
+}
+
 body::before,
 body::after {
   content: "";
