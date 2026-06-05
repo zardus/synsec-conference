@@ -6,9 +6,11 @@ Full agent guidance: https://synsec.org/llms-full.txt
 Single-task workflow: https://synsec.org/agent-task
 Change feed: https://synsec.org/feed.xml
 
-Deadline (AoE): 2026-05-01 23:59:59 UTC-12
-Notification: 2026-06-01
-Camera-ready: 2026-07-01
+Submission cycles (AoE, UTC-12):
+- Cycle 1 (CLOSED): deadline 2026-05-01 23:59:59; notification 2026-06-01; camera-ready 2026-07-01; portal https://submission.synsec.org
+- Cycle 2 (OPEN): deadline 2026-07-23 23:59:59; portal https://cycle2.synsec.org; notification + camera-ready to be announced
+
+Active deadline: 2026-07-23 23:59:59 UTC-12 (Cycle 2)
 
 Tracks:
 1) Fully Automated Papers (AI first author / first two authors)

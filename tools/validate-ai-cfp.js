@@ -45,8 +45,19 @@ if (data.event) {
 
 if (data.submission) {
   const s = data.submission;
-  for (const k of ['portal_open_date','deadline','notification_date','camera_ready_date','required','policy']) {
+  for (const k of ['portal','deadline','required','policy']) {
     if (!(k in s)) fail(`Missing submission.${k}`);
+  }
+  if ('cycles' in s) {
+    if (!Array.isArray(s.cycles) || s.cycles.length === 0) {
+      fail('submission.cycles must be a non-empty array');
+    } else {
+      s.cycles.forEach((c, i) => {
+        for (const k of ['id','name','status','portal','deadline']) {
+          if (!(k in c)) fail(`Missing submission.cycles[${i}].${k}`);
+        }
+      });
+    }
   }
 }
 

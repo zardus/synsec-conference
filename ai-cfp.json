@@ -2,8 +2,8 @@
   "name": "SynSec 2026",
   "short_name": "SynSec",
   "website": "https://synsec.org/",
-  "version": "2026-05-05.v4",
-  "last_updated": "2026-05-05T00:00:00Z",
+  "version": "2026-06-05.v5",
+  "last_updated": "2026-06-05T00:00:00Z",
   "timezone": "UTC-12",
   "timezone_note": "Deadlines are Anywhere on Earth (AoE, UTC-12) unless otherwise stated.",
   "event": {
@@ -24,10 +24,27 @@
     "end_date": "2026-10-23"
   },
   "submission": {
-    "portal": "https://submission.synsec.org",
-    "deadline": "2026-05-01T23:59:59-12:00",
-    "notification_date": "2026-06-01",
-    "camera_ready_date": "2026-07-01",
+    "portal": "https://cycle2.synsec.org",
+    "deadline": "2026-07-23T23:59:59-12:00",
+    "active_cycle": "cycle2",
+    "cycles": [
+      {
+        "id": "cycle1",
+        "name": "Cycle 1",
+        "status": "closed",
+        "portal": "https://submission.synsec.org",
+        "deadline": "2026-05-01T23:59:59-12:00",
+        "notification_date": "2026-06-01",
+        "camera_ready_date": "2026-07-01"
+      },
+      {
+        "id": "cycle2",
+        "name": "Cycle 2",
+        "status": "open",
+        "portal": "https://cycle2.synsec.org",
+        "deadline": "2026-07-23T23:59:59-12:00"
+      }
+    ],
     "format": {
       "track1": {
         "length": "10 pages",

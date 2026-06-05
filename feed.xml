@@ -5,9 +5,17 @@
     <link>https://synsec.org/</link>
     <description>Machine-readable updates for SynSec CFP resources.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
 
 
+
+    <item>
+      <title>Second submission cycle (Cycle 2) is open</title>
+      <link>https://cycle2.synsec.org</link>
+      <guid>synsec-agent-feed-2026-06-05-cycle2-v1</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description>SynSec 2026 added a second submission cycle. Cycle 2 is now open at https://cycle2.synsec.org with an AoE (UTC-12) deadline of 2026-07-23 23:59:59. Cycle 1 (deadline 2026-05-01) is closed. ai-cfp.json now lists both cycles under submission.cycles; the top-level submission deadline points to the active Cycle 2.</description>
+    </item>
 
     <item>
       <title>Venue confirmed: Skysong Innovations, Scottsdale, AZ</title>
