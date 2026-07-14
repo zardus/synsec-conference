@@ -171,6 +171,66 @@ h1 {
   color: var(--text-soft);
 }
 
+.registration-callout {
+  margin-top: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  border: 1px solid rgba(66, 245, 200, 0.4);
+  border-radius: calc(var(--radius) - 3px);
+  background: linear-gradient(135deg, rgba(66, 245, 200, 0.12), rgba(91, 195, 255, 0.08));
+  padding: 1rem 1.1rem;
+  box-shadow: 0 0 24px rgba(66, 245, 200, 0.08);
+}
+
+.registration-callout p {
+  margin-top: 0.2rem;
+  color: var(--text-soft);
+}
+
+.registration-kicker {
+  font-family: "Space Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.registration-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 8px;
+  background: linear-gradient(95deg, var(--accent), #8de7ff);
+  padding: 0.7rem 1rem;
+  color: #041018;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0 18px rgba(66, 245, 200, 0.2);
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+
+.registration-button:hover {
+  color: #041018;
+  box-shadow: 0 0 26px rgba(66, 245, 200, 0.34);
+  transform: translateY(-1px);
+}
+
+.registration-button:focus {
+  color: #041018;
+}
+
+.registration-button:focus-visible {
+  outline: 3px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
 .hero-meta {
   margin-top: 1.8rem;
   display: grid;
@@ -466,6 +526,11 @@ li {
 
   .hero-meta {
     grid-template-columns: 1fr;
+  }
+
+  .registration-callout {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .track-grid,
